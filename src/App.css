@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: var(--red); */
+}
+/*  ? o`zgaruvchilar */
+:root {
+  --blue: #060a90;
+  --white: #fff;
+  --pink: #fdd4d4;
+  --red: #f42829;
+  --gray: #4a4755;
+  --f9: #f3f2f2;
+  --aqua: #18ab92;
+  --sky: #00ccff;
+}
+/* ? kutubxona  */
+h1,h2,h3,h4,p,span,button{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+h1{
+  font-size: 24px;
+  font-weight: 700;
+
+}
+h3{
+  font-size: 15px;
+  font-weight: 700;
+}
+p{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4{
+  font-size: 17px;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  width: 100%;
+  padding: 10px;
+  background-color: #060a90;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ? kutubxona end */
+.head > h1{
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 800;
+}
+button,
+i,img:hover {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img1,.img2{
+  margin-bottom: 50px;
 }
+.App {
+  max-width: 500px;
+  margin: auto;
+}
+
+.content {
+  text-align: center;
+  padding: 15px;
+}
+
+.head img {
+  width: 180px;
+  height: auto;
+}
+
+.head h1 {
+  margin-bottom: 30px;
+  color: var(--blue);
+}
+.img1 {
+  margin-bottom: 50px;
+}
+
+
