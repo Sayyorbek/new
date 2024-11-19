@@ -27,7 +27,7 @@ export const StandardCourses = () => {
             </a>
             <h1>Standard courses</h1>
             <div></div>
-          </div>~
+          </div>
       {Array.from({ length: 10 }).map((_, index) => (
         <div key={index} className="standard_courses" data-aos="fade-left">
           {/* ? standard courses header */}
